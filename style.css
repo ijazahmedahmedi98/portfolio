@@ -61,11 +61,12 @@ a:hover{
 .hire_me button{
     padding: 8px 15px;
     background-color: #f39c12;
+    color: black;
 }
 .view_projects button{
     padding: 8px 15px;
     background-color: transparent;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .hero h1{
     font-size: 39px;
@@ -76,15 +77,13 @@ a:hover{
 }
 
 .hire_me button:hover {
-    background-color: white;
-    color: rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     transform: scale(1.05);
     transition: all 0.3s ease;
 }
-.hire_me a{
-    color: black;
-}
+
 .view_projects button:hover {
     background-color: #f39c12;
     color: rgb(0, 0, 0);
